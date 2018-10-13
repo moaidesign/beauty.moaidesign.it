@@ -22,6 +22,10 @@ html, body {
   color: rgb(222, 202, 230);
   font-family: 'Charmonman', cursive;
 }
+.navbarContainer_list_item_link :hover {
+  text-decoration: underline;
+  transition: all 2s;
+}
 .navbarContainer_list_item {
   display: inline;
   padding-left: 30px;
@@ -29,8 +33,6 @@ html, body {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
-}
-.navbarContainer_list_item {
   text-align: right;
   text-decoration: none;
 }
@@ -41,11 +43,10 @@ section{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgb(255, 192, 158);
 }
 .sectionContainer{
   position: relative;
-  top: 10%;
+  top: 7%;
   left: 10%;
   width: 80%;
   height: 80%;
@@ -55,9 +56,33 @@ section{
 }
 .sectionContainer_paragraph {
   font-family: 'Raleway', sans-serif;
+  margin: 0 1.5%;
 }
+.sectionContainer_title {
+  font-family: 'Charmonman', cursive;
+  margin: 0 1.5%;
+}
+/*griglia_______________________*/
+.gridContainer {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.gridContainer_card {
+  width: 30%;
+  height: auto;
+  margin:0 1.5%;
+  float: left;
+  box-shadow: 10px 10px 10px
+  rgb(141, 147, 148);
+}
+.gridContainer_card_image {
+  max-width: 100%;
+  height: auto;
+}
+
 /*button____*/
 .sectionContainer_center{
+  margin-top: 300px;
   width: 100%;
   text-align: center;
   height: auto;
@@ -67,17 +92,34 @@ section{
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 2px;
-  background-color: rgb(32, 190, 89);
+  border-radius: 8px;
+  background-color: rgb(62, 25, 65);
   text-decoration: none;
   color: white;
+  font-family: 'Charmonman', cursive;
   border-style: solid;
-  border-color: rgb(32, 190, 89);
+  border-color: rgb(62, 25, 65);
   transition: all .5s;
 }
 .sectionContainer_center_button:hover{
-  border-radius: 2px;
+  border-radius: 20px;
   background-color: inherit;
   text-decoration: none;
-  color: rgb(32, 190, 89);
+  color: rgb(62, 25, 65);
+}
+/*section 2-----------*/
+#section2{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*section 3-----------*/
+#section3{
+  position: absolute;
+  top: 200%;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
