@@ -123,8 +123,8 @@ section{
 .infoGrid_container_card {
   width: 30%;
   height: auto;
-  margin:0 1.5%;
+  margin:1.5%;
   float: left;
-  box-shadow: 10px 10px 10px
+  text-align: center;
   rgb(141, 147, 148);
 }
