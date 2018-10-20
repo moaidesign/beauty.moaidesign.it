@@ -96,6 +96,8 @@ section{
   border-style: solid;
   border-color: rgb(62, 25, 65);
   transition: all .5s;
+  z-index: 888;
+  position: relative;
 }
 .sectionContainer_center_button:hover{
   border-radius: 20px;
@@ -128,7 +130,7 @@ section{
 }
 .infoGrid_container_card_title {
   position: absolute;
-  font-size: 20px;
+  font-size: 17px;
   color: black;
   z-index: 888;
   font-family: 'Raleway', sans-serif;
@@ -150,6 +152,10 @@ footer {
 }
 .credits_name {
   margin-top: 250%;
+}
+.credits_name_link {
+  text-decoration: none;
+  color: inherit;
 }
 /*media query________*/
 @media screen and (max-width: 1025px) {
